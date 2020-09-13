@@ -1,0 +1,19 @@
+.TabMenu{
+    display: flex;
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border:#9f9f9f solid 1px;
+    color:#fff;
+    background-color: #9f9f9f;
+}
+.menu-item:hover{
+    background-color: #ffffff;
+    color: aqua;
+    border-top-color: aqua;
+}
