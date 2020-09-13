@@ -4,6 +4,7 @@ import './App.css';
 import TabMenu from './components/TabMenu/index';
 
 function App() {
+  const email= "TrongLinh@gmail.com";
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +20,7 @@ function App() {
         >
           hehe
         </a>
-        <TabMenu />
+        <TabMenu email={email}/>
       </header>
     </div>
   );

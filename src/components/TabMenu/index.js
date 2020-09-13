@@ -15,34 +15,18 @@ class TabMenu extends Component{
             {lable:'WORK', icon:work},
             {lable:'SETTING',icon:setting}
         ];
+        const email = this.props.email;
         return(
             <div className="TabMenu">
                 {icons.map((icon, index)=>(
                     <div className="menu-item">
-                    <img src={icon.icon}></img>
-                <span>{icon.lable}</span>
-                </div> 
+                        <img src={icon.icon}></img>
+                        <span>{icon.lable}</span>
+                        
+                    </div>
+                    
                 ))}
-                {/* /* <div className="menu-item">
-                    <i className="fas fa-home"></i>
-                    <span>HOME</span>
-                </div>
-                <div className="menu-item">
-                    <i className="fas fa-gift"></i>
-                    <span>DEALS</span>
-                </div>
-                <div className="menu-item">
-                    <i className="fas fa-cloud-upload-alt"></i>
-                    <span>UPLOAD</span>
-                </div>
-                <div className="menu-item">
-                    <i className="fas fa-mug-hot"></i>
-                    <span>WORK</span>
-                </div>
-                <div className="menu-item">
-                    <i className="fas fa-cogs"></i>
-                    <span>SETTING</span>
-                </div> */ }
+                <div>Email: {email}</div>
             </div>
         );
     }

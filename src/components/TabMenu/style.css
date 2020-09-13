@@ -11,11 +11,15 @@
     border:#9f9f9f solid 1px;
     color:#fff;
     background-color: #9f9f9f;
+    
 }
 .menu-item img{
     height: 40px;
     width: 40px;
     color:#fff;
+}
+.menu-item span{
+    font-size: 12px;
 }
 .menu-item:hover{
     background-color: #ffffff;
