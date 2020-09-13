@@ -12,6 +12,11 @@
     color:#fff;
     background-color: #9f9f9f;
 }
+.menu-item img{
+    height: 40px;
+    width: 40px;
+    color:#fff;
+}
 .menu-item:hover{
     background-color: #ffffff;
     color: aqua;
